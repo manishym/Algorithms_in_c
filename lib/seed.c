@@ -3,7 +3,7 @@
 
 int seed_array(int array[], int max, int length) {
 	int i;
-	srandomdev();
+//	srandomdev();
 	for(i = 0; i < length; i++){
 		array[i] = (int)random() % max;
 	}
